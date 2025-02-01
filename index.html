@@ -118,6 +118,47 @@
         .country-cell:hover .student-names {
             display: block;
         }
+        @media (max-width: 768px) {
+            #searchBox {
+                width: 80%;
+            }
+
+            table {
+                font-size: 12px;
+                width: 100%;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+
+            #sortButton, #sortMenu {
+                width: 80%;
+            }
+
+            #sortMenu {
+                margin: 10px auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #searchBox {
+                width: 100%;
+            }
+
+            table {
+                font-size: 10px;
+                width: 100%;
+            }
+
+            #sortButton, #sortMenu {
+                width: 90%;
+            }
+
+            th, td {
+                padding: 6px;
+            }
+        }
     </style>
 </head>
 <body>
